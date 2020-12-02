@@ -33,3 +33,10 @@ li {
 li:not(.list-head){
     padding-top: 4%;
 }
+
+.list-head {
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
